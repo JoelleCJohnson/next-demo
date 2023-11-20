@@ -14,7 +14,7 @@ export default async function NewAffirm() {
         <>
             <h1 className="text-2xl font-bold dark:text-sky-300 text-sky-600">
                 New Affirmations</h1>
-                <section className="container mx-auto px-5 py-12 flex flex-wrap">
+                <section className="container mx-auto sm:px-5 px-2 py-8 flex flex-wrap">
                     {affirmations.map(item => (
                         <AffirmationCard key={item.id} item={item} />
                     ))}
